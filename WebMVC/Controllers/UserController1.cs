@@ -11,7 +11,7 @@ namespace WebMVC.Controllers
 
         public IActionResult Func()
         {
-            return View();
+            return View("salam");
         }
 
         public IActionResult Func2()
