@@ -8,5 +8,10 @@ namespace WebMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult Func()
+        {
+            return View();
+        }
     }
 }
